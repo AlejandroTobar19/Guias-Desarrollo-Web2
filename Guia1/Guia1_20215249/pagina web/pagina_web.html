@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videojuegos de PlayStation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-800 text-white sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+      <h1 class="text-lg font-bold">PlayStation Games</h1>
+      <nav>
+        <ul class="hidden sm:flex space-x-4">
+          <li><a href="#seccion1" class="hover:text-blue-300">Inicio</a></li>
+          <li><a href="#seccion2" class="hover:text-blue-300">Catálogo</a></li>
+          <li><a href="#seccion3" class="hover:text-blue-300">Noticias</a></li>
+          <li><a href="#seccion4" class="hover:text-blue-300">Contacto</a></li>
+        </ul>
+        <button class="sm:hidden text-white" id="menu-btn">&#9776;</button>
+      </nav>
+    </div>
+    <ul class="sm:hidden bg-blue-700 hidden" id="mobile-menu">
+      <li><a href="#seccion1" class="block py-2 px-4 hover:bg-blue-600">Inicio</a></li>
+      <li><a href="#seccion2" class="block py-2 px-4 hover:bg-blue-600">Catálogo</a></li>
+      <li><a href="#seccion3" class="block py-2 px-4 hover:bg-blue-600">Noticias</a></li>
+      <li><a href="#seccion4" class="block py-2 px-4 hover:bg-blue-600">Contacto</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="seccion1" class="bg-gray-900 text-white py-16 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Bienvenidos al mundo de PlayStation</h2>
+    <p class="text-lg sm:text-xl">Explora los mejores juegos, noticias y mucho más.</p>
+  </section>
+
+  <!-- Catálogo -->
+  <section id="seccion2" class="py-16 container mx-auto px-4">
+    <h2 class="text-2xl sm:text-3xl font-bold mb-8 text-center">Catálogo de Juegos</h2>
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="../Guia1_20215249/pagina web/imagenes/GOW.jpeg" alt="God of War" class="w-full">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">God of War Ragnarok</h3>
+          <p class="text-sm text-gray-600">
+            God of War: Ragnarok es la nueva aventura de acción y rol para PlayStation 5 y PlayStation 4, 
+            continuación de God of War de 2018, uno de los títulos más exitosos de la plataforma de sobremesa de Sony.
+            Desarrollado por el prestigioso estudio Sony Santa Monica, nos presenta una nueva historia en la que Kratos deberá 
+            enfrentarse a diversos enemigos de inspiración nórdica, explorando los mitos del Ragnarok, el apocalipsis que todo 
+            lo devorará según esta tradición del norte.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="../Guia1_20215249/pagina web/imagenes/GOT.jpg" alt="Ghost of Tsushima" class="w-full">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">Ghost of Tsushima</h3>
+          <p class="text-sm text-gray-600">
+            Sucker Punch, creadores de la saga inFamous presentan un nuevo videojuego de acción, 
+            sigilo y aventura para PlayStation 4 de forma exclusiva, que cambia la ambientación de ciencia ficción y personajes
+             mutantes para trasladarnos a un pasado histórico de gran veracidad. Ghost of Tsushima nos llevará a un Japón feudal 
+             exquisitamente recreado en lo que es uno de los videojuegos más ambiciosos de la plataforma de Sony.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="../Guia1_20215249/pagina web/imagenes/TLOU.jpg" alt="The Last of Us" class="w-full">
+        <div class="p-4">
+          <h3 class="text-lg font-bold">The last of Us Part 1</h3>
+          <p class="text-sm text-gray-600">
+            The Last of Us Parte I es un videojuego de aventura, 
+            acción y supervivencia en tercera persona desarrollado por Naughty Dog para PlayStation 5 y PC,
+            basado en el éxito The Last of Us, uno de los videojuegos más importantes lanzados por Sony en PlayStation 3 
+            y ganador de innumerables premios. Esta versión, rehecha desde cero, mejora los gráficos, la jugabilidad y el control, 
+            así como incluyendo el contenido descargable Left Behind.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Noticias -->
+  <section id="seccion3" class="bg-gray-200 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl sm:text-3xl font-bold mb-8 text-center">Noticias</h2>
+      <div class="space-y-6">
+        <article class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+          <h3 class="text-lg font-bold">
+            No es un error de precio: PS5 Pro cuesta menos que nunca gracias a un fuerte descuento por tiempo limitado
+          </h3>
+          <p class="text-sm text-gray-600">
+            No es un error de precio: PS5 Pro cuesta menos que nunca gracias a un fuerte descuento por tiempo limitado
+          </p>
+        </article>
+        <article class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+          <h3 class="text-lg font-bold">
+            PS5 supera las ventas de PS4 en Estados Unidos mientras Xbox Series no alcanza las de Xbox One
+          </h3>
+          <p class="text-sm text-gray-600">
+            PS5 supera las ventas de PS4 en Estados Unidos mientras Xbox Series no alcanza las de Xbox One
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="seccion4" class="py-16 container mx-auto px-4">
+    <h2 class="text-2xl sm:text-3xl font-bold mb-8 text-center">Contacto</h2>
+    <form class="max-w-lg mx-auto space-y-4">
+      <div>
+        <label for="nombre" class="block text-sm font-bold">Nombre</label>
+        <input type="text" id="nombre" class="w-full border border-gray-300 rounded-lg p-2">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-bold">Email</label>
+        <input type="email" id="email" class="w-full border border-gray-300 rounded-lg p-2">
+      </div>
+      <div>
+        <label for="mensaje" class="block text-sm font-bold">Mensaje</label>
+        <textarea id="mensaje" rows="4" class="w-full border border-gray-300 rounded-lg p-2"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-blue-800 text-white py-2 rounded-lg hover:bg-blue-700">Enviar</button>
+    </form>
+  </section>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
